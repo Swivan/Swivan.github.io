@@ -1,0 +1,89 @@
+*
+{
+    margin: 0px;
+    padding: 0 0px;
+}
+header 
+{
+    background-color: black;
+    height: 130px;
+}
+header h1
+{
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+section
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+section h1
+{
+    font-size: 30px;
+    margin-top: 70px;
+}
+section p
+{
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+div
+{
+    height: 200px;
+    width: 850px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: black;
+    cursor: pointer;
+    display: block;
+}
+div h1
+{
+    color: white;
+    text-align: center;
+    padding: 65px;
+    font-size: 60px;
+    text-decoration: none;
+}
+div a
+{
+    text-decoration: none;
+}
+div h1:hover
+{
+    color: rgb(211, 83, 83);
+    text-shadow: 500px;
+    display: block;
+}
+label
+{
+    margin-left: 14px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.custom-checkbox input[type="checkbox"],
+            .custom-checkbox .checked {
+            display: none;
+        }
+ 
+        .custom-checkbox input[type="checkbox"]:checked ~ .checked
+        {
+            display: inline-block;
+        }
+ 
+        .custom-checkbox input[type="checkbox"]:checked ~ .unchecked
+        {
+            display: none;
+        }
+
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            margin-top: 10px;
+            }
